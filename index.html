@@ -130,36 +130,23 @@
         </section>
     </div>
 
-
     <div class="sites">    
       <h3 class='section_title color' data-splitting>Contact Me</h3>
       <div id="contact">
-        <form
-          action="https://formspree.io/xrganody"
-          method="POST">
-          <label for="fname">
-            First Name:
-              <input type="text" id="fname" autocomplete="fname" name="fname" />
-          </label>
-          <label for="lname">
-            Last Name:
-            <input type="text" id="lname" autocomplete="lname" name="lname" />
-          </label>
-          <label for="email">
-            Email:
-            <input type="text" name="_replyto">
-          </label>
-          <label>
-            Message:
+        <form action="https://formspree.io/xrganody" method="POST">
+          <label>Name <span>(required)</span>
+            <input type="text" name="name" required></label>
+          <label>Email <span>(required)</span>
+            <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label>Message:
             <textarea name="message"></textarea>
           </label>
-          <button type="submit" id="send">Send</button>
+          <input type="submit" id="send" value="Send My Message">          
         </form>
       </div>
   </div>
   </main>
   <footer>
-
   </footer>
   <script> Splitting(); </script>
   <script src="scripts.js"></script>

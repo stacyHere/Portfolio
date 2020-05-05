@@ -336,12 +336,13 @@ label span {
   font-size: .75rem;
   color: var(--clr-accentDk);
 }
+
 input, textarea {
   display: block;
   font-size: 1rem;
   padding: .75rem;
   background-color: var(--clr-light);
-  border: 1px solid var(--clr-accentDk);
+  border: 2px solid var(--clr-accent2);
   color: var(--clr-accentDk);
   margin-top: .2rem;
   width: 100%;
@@ -352,7 +353,7 @@ input, textarea {
   font-size: 1rem;
   padding: .75rem;
   background-color: var(--clr-accentDk);
-  border: 1px solid var(--clr-accentDk);
+  border: 2px solid var(--clr-accentDk);
   color: var(--clr-light);
   margin-top: .2rem;
   width: 100%;
@@ -362,5 +363,5 @@ textarea {
 }
 
 input:focus, textarea:focus {
-  border: 3px solid var(--clr-accentDk);
+  border: 2px solid var(--clr-accentDk);
 }
