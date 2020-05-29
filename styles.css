@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 body {
@@ -62,19 +62,27 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 2em;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+
+.parent {
+  position: fixed;
+  width: 100%;
+  background: var(--clr-dark);
+  z-index: 5;
 }
 
 .header {
   font-family: 'Montserrat', sans-serif;
   color: var(--clr-light);
   background-color: var(--clr-dark);
-  padding: 2em;
   height: 100vh;
   background-image: url(images/pexelsCode.jpeg);
   background-position: center;
@@ -151,7 +159,8 @@ main {
   .half {
     flex-direction: column;
     justify-content: center;
-  } 
+
+  }
   .s3d {
     line-height: 1;
   }
@@ -173,7 +182,7 @@ main {
   }
   .sd3 {
     font-size: 40vmin;
-  }  
+  }
    body {
      overflow-x: hidden;
    }
@@ -181,12 +190,11 @@ main {
      position: absolute;
      height: 90vh;
      right: 0px;
-     top: 8vh;
+     top: 2vh;
      display: flex;
      flex-direction: column;
      align-items: center;
-     padding-top: 1em;  
-     /*  justify-content: space-around;   */
+     padding-top: 1em;
      width: 50%;
      transform: translateX(100%);
      transition: transform 0.4s ease-in;
@@ -238,7 +246,7 @@ main {
 .sites {
   margin-top: 1em;
   text-align: center;
-}  
+}
 
 .projects {
   margin: 0 auto;
