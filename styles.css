@@ -216,6 +216,9 @@ main {
   list-style: none;
 }
 
+.nav__link:hover {
+  color: var(--clr-accent);
+}
 .nav__item {
   display: inline;
 }
@@ -372,4 +375,14 @@ textarea {
 
 input:focus, textarea:focus {
   border: 2px solid var(--clr-accentDk);
+}
+
+.containerZoom {
+  width: 90vw;
+  height: 90vh;
+}
+
+.zoom {
+  width: 90vw;
+  height: 90vh;
 }

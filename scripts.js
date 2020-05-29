@@ -46,3 +46,12 @@ const navSlide = () => {
 }
 
 navSlide();
+
+const containers = document.querySelectorAll('.container');
+const monitors = document.querySelectorAll('.monitor');
+for(let i = 0; i<containers.length; i++){
+  containers[i].addEventListener('click', function() {
+    this.classList.toggle('containerZoom');
+    monitors[i].classList.toggle('zoom');
+  });
+}
