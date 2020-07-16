@@ -380,9 +380,16 @@ input:focus, textarea:focus {
 .containerZoom {
   width: 90vw;
   height: 90vh;
+  display: block;
+  position: absolute;
+  transition: all 2s ease;
+  z-index: 5;
 }
 
 .zoom {
   width: 90vw;
   height: 90vh;
+  position: absolute;
+  transition: all 2s ease;
+  z-index: 5;
 }
